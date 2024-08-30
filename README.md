@@ -67,13 +67,3 @@
 **`«C6»`** Для всіх ефектів ховера і фокуса (колір, фон, тінь) зроблені
 переходи. час - `250ms`, функція розподілу часу -
 `cubic-bezier(0.4, 0, 0.2, 1)`.
-
-# Web Studio
-
-![Web Page](./images/screencapture1.png)
-
----
-
-![Web Page](./images/screencapture2.png)
-
----
