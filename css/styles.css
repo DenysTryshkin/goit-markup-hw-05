@@ -616,14 +616,14 @@ body {
     align-items: center;
     opacity: 0;
     pointer-events: none;
-    visibility: var(--transition-default);
-    transition: opacity var(--transition-default),
-        visibility var(--transition-default);
+    visibility: hidden;
+    transition: opacity var(--transition-default), visibility var(--transition-default);
 }
 
 .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
+    visibility: visible;
 }
 
 .modal {
