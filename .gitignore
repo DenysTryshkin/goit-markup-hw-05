@@ -1,0 +1,44 @@
+# Ігноруємо системні файли
+.DS_Store
+Thumbs.db
+
+# Ігноруємо файли середовища
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Інші файли
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Виконувані файли
+*.exe
+*.out
+*.o
